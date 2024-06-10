@@ -6,13 +6,13 @@ $('document').ready(function () {
 	let vw = $(window).width() / 2;
 	if ($(window).width() < 768) {
 		// Mobile layout adjustments
-		$('#b11').animate({ top: 120, left: vw - 450 }, 500);
-		$('#b22').animate({ top: 120, left: vw - 400 }, 500);
-		$('#b33').animate({ top: 120, left: vw - 350 }, 500);
-		$('#b44').animate({ top: 120, left: vw - 300 }, 500);
-		$('#b55').animate({ top: 120, left: vw - 250 }, 500);
-		$('#b66').animate({ top: 120, left: vw - 200 }, 500);
-		$('#b77').animate({ top: 120, left: vw - 150 }, 500);
+		$('#b11').animate({ top: 240, left: vw - 500 }, 500);
+		$('#b22').animate({ top: 240, left: vw - 430 }, 500);
+		$('#b33').animate({ top: 240, left: vw - 360 }, 500);
+		$('#b44').animate({ top: 240, left: vw - 290 }, 500);
+		$('#b55').animate({ top: 240, left: vw - 220 }, 500);
+		$('#b66').animate({ top: 240, left: vw - 150 }, 500);
+		$('#b77').animate({ top: 240, left: vw - 80 }, 500);
 	} else {
 		// Desktop layout adjustments
 		$('#b11').animate({ top: 240, left: vw - 350 }, 500);
@@ -159,13 +159,13 @@ $('document').ready(function () {
 		$('#b7').attr('id', 'b77')
 		if ($(window).width() < 768) {
 			// Mobile layout adjustments
-			$('#b11').animate({ top: 240, left: vw - 450 }, 500);
-			$('#b22').animate({ top: 240, left: vw - 400 }, 500);
-			$('#b33').animate({ top: 240, left: vw - 350 }, 500);
-			$('#b44').animate({ top: 240, left: vw - 300 }, 500);
-			$('#b55').animate({ top: 240, left: vw - 250 }, 500);
-			$('#b66').animate({ top: 240, left: vw - 200 }, 500);
-			$('#b77').animate({ top: 240, left: vw - 150 }, 500);
+			$('#b11').animate({ top: 240, left: vw - 500 }, 500);
+			$('#b22').animate({ top: 240, left: vw - 430 }, 500);
+			$('#b33').animate({ top: 240, left: vw - 360 }, 500);
+			$('#b44').animate({ top: 240, left: vw - 290 }, 500);
+			$('#b55').animate({ top: 240, left: vw - 220 }, 500);
+			$('#b66').animate({ top: 240, left: vw - 150 }, 500);
+			$('#b77').animate({ top: 240, left: vw - 80 }, 500);
 		} else {
 			// Desktop layout adjustments
 			$('#b11').animate({ top: 240, left: vw - 350 }, 500);
