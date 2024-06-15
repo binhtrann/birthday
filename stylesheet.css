@@ -163,15 +163,29 @@ body {
 }
 
 @media only screen and (min-width: 769px) {
+
 	/* For mobile phones: */
-	#b1,#b11,#b2,#b22,#b3,#b33,#b4,#b44,#b5,#b55,#b6,#b66,#b7,#b77 {
+	#b1,
+	#b11,
+	#b2,
+	#b22,
+	#b3,
+	#b33,
+	#b4,
+	#b44,
+	#b5,
+	#b55,
+	#b6,
+	#b66,
+	#b7,
+	#b77 {
 		background-size: 100%;
 	}
 
-	.balloons h2{
+	.balloons h2 {
 		font-size: 30px;
 	}
-  }
+}
 
 .bulb {
 	width: 50px;
@@ -1595,10 +1609,30 @@ o @keyframes bannar_come {
 	display: none;
 }
 
+.image-p {
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.outer-image {
+	justify-content: center;
+	background-color: black;
+	align-items: center;
+	height: 100vh;
+	position: absolute;
+	top: -14.9em;
+	z-index: 99;
+	bottom: 0;
+	left: 0;
+}
+
 .message p {
 	font-family: 'Signika', sans-serif;
 	font-size: 30px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
